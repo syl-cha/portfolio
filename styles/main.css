@@ -1,0 +1,70 @@
+:root {
+  --bg-primary: #f4f5f9;
+  --bg-secondary: #dddfe6;
+  --text-primary: #252c41;
+  --text-accent: #f1404b
+  ;
+}
+
+html {
+  width: 100vw;
+  max-width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: var(--bg-secondary);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: var(--text-accent);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #555;
+}
+
+.content {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+footer {
+  background-color: var(--bg-secondary);
+  text-align: center;
+  color: var(--text-primary);
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
