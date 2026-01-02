@@ -1,0 +1,40 @@
+@import url(https://fonts.bunny.net/css?family=londrina-solid:100,300,400,900);
+@import url(https://fonts.bunny.net/css?family=ibm-plex-sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i);
+
+:root {
+    --font-sans: "IBM Plex Sans", sans-serif;
+    --font-title: "Londrina Solid", display;
+}
+@font-face {
+    font-family: "NouvelleGrotesquerie";
+    src:
+        url("../fonts/NouvelleGrotesquerie-Regular.woff") format("woff"),
+        url("../fonts/NouvelleGrotesquerie-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Squatina";
+    src:
+        url("../fonts/Squatina-Regular.woff") format("woff"),
+        url("../fonts/Squatina-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Excessive";
+    src:
+        url("../fonts/Excessive-ExtraCondensed.woff") format("woff"),
+        url("../fonts/Excessive-ExtraCondensed.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Cesare";
+    src:
+        url("../fonts/Cesare-Regular.woff") format("woff"),
+        url("../fonts/Cesare-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Finlandica";
+    font-weight: 300 800;
+    src: url("../fonts/Finlandica-VariableFont_wght.ttf");
+}
