@@ -22,6 +22,7 @@
     <div class="navbar">
       <a href="./index.html">Accueil</a>
       <a class="active">Projets</a>
+      <a href="./cv.html">CV</a>
     </div>
   </nav>
   <header>
@@ -29,46 +30,74 @@
     <div class="scroll-down blinking"><i class='bx bxs-chevron-down'></i></div>
   </header>
 
-  <div class="split">
-    <section id="wordpress">
-      <div class="section-content">
-        <h2>Wordpress</h2>
-        <p>Dans le cadre de l'UE L102, nous avons appris à installer une instance
-          du CMS Wordpress et à publier des articles sur cette
-          <a href="https://chambon36.hosting.unilim.fr/UEL102/" target="_blank">plateforme</a>.
-        </p>
-      </div>
-    </section>
-    <section id="minisite">
-      <div class="section-content">
-        <h2>Mini site</h2>
-        <p>Dans le cadre de l'UE L104, nous avons appris des rudiments de HTML et de CSS
-          et nous avons construit un <a href="./mini_site/index.html" target="_blank">mini site web</a>.
-        </p>
-      </div>
-    </section>
-  </section>
-  <section id="coopmath">
-    <div class="section-content">
-      <h2>Coopmaths</h2>
-      <p>Dans le cadre de ma participation à l'association Coopmaths,
-        j'ai renouvellé l'interface graphique du 
-        <a href="https://coopmaths.fr/www" target="_blank" rel="Coopmaths">site</a>.
-      </p>
+    <div class="split">
+        <section id="minisite">
+          <div class="section-content">
+            <h2>Mini site</h2>
+            <p>Dans le cadre de l'UE L104, nous avons appris des rudiments de HTML et de CSS
+              et nous avons construit un <a href="./projects/mini_site/index.html" target="_blank">mini site web</a>.
+            </p>
+            <a href="./projects/mini_site/index.html" target="_blank">
+                <img src="./src/assets/images/mini-projet.png" alt="Mini-projet">
+            </a>
+          </div>
+        </section>
+      <section id="brasseurs">
+        <div class="section-content">
+          <h2>Brasseurs du monde</h2>
+          <p>Dans le cadre de l'UE L220, nous avons conçu un <a href="./projects/hopspot/index.html" target="_blank">site</a>
+              mettant en œuvre l'utilisation d'une API de connexion à <a href="https://www.openbrewerydb.org/">Open Brewery DB</a>
+              et permettant de faire des recherches dans cette bases de données.
+          </p>
+          <a href="./projects/hopspot/index.html" target="_blank">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="./src/assets/images/brasseurs_01.png" alt="Brasseurs 1"></div>
+                    <div class="carousel-slide"><img src="./src/assets/images/brasseurs_02.png" alt="Brasseurs 2"></div>
+                    <div class="carousel-slide"><img src="./src/assets/images/brasseurs_03.png" alt="Brasseurs 3"></div>
+                </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section id="uel204">
+        <div class="section-content">
+          <h2>PHP et MySQL</h2>
+          <p>Dans le cadre de l'UE L204, nous avons conçu un site
+              mettant en œuvre l'utilisation de PHP pour interagir avec une base de données conçue par nos soins
+              et permettant de gérer les relations entre des cours, des enseignants et des étudiants dans une université.
+          </p>
+          <div class="carousel">
+            <div class="carousel-track">
+                <div class="carousel-slide"><img src="./src/assets/images/uel204_01.png" alt="UEL204 1"></div>
+                <div class="carousel-slide"><img src="./src/assets/images/uel204_02.png" alt="UEL204 2"></div>
+                <div class="carousel-slide"><img src="./src/assets/images/uel204_03.png" alt="UEL204 3"></div>
+                <div class="carousel-slide"><img src="./src/assets/images/uel204_04.png" alt="UEL204 4"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="coopmath">
+        <div class="section-content">
+          <h2>Coopmaths</h2>
+          <p>Dans le cadre de ma participation à l'association Coopmaths,
+            j'ai renouvellé l'interface graphique du
+            <a href="https://coopmaths.fr/www" target="_blank" rel="Coopmaths">site</a>.
+          </p>
+          <a href="https://coopmaths.fr/www" target="_blank" rel="Coopmaths">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="./src/assets/images/coopmaths_01.png" alt="Coopmaths 1"></div>
+                    <div class="carousel-slide"><img src="./src/assets/images/coopmaths_02.png" alt="Coopmaths 2"></div>
+                    <div class="carousel-slide"><img src="./src/assets/images/coopmaths_03.png" alt="Coopmaths 3"></div>
+                </div>
+            </div>
+          </a>
+        </div>
+      </section>
     </div>
-  </section>
-  </div>
-
-  <footer>
-    <h4>Contacts</h4>
-    <div class="contacts">
-      <a href="mailto:sylvain.chambon1@etu.unilim.fr"><i class='bx bx-envelope'></i></a>
-      <a href="https://discord.com/channels/@me/949003460068642866"><i class='bx bxl-discord-alt'></i></a>
-      <a href="https://mastodon.yoctomath.com/@sylcha"><i class='bx bxl-mastodon'></i></a>
-    </div>
-    <p class="mention">&copy; 2024 Sylvain CHAMBON. Tous droits réservés.</p>
-  </footer>
-
+  <script src="./js/loader.js"></script>
+  <script src="./js/carousel.js"></script>
 </body>
 
 </html>
